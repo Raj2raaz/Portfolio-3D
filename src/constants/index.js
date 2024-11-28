@@ -179,6 +179,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Dynamic JSON Form ",
+    description:
+      "An interactive tool for creating and managing forms from JSON data. Built with React and TypeScript, it offers real-time updates, field validation, dark mode, and options to download form submissions as JSON.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jest",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: DynamicForm,
+    source_code_link: "https://github.com/Raj2raaz/Dynamic_Form_Generator/",
+    live_link: "https://jsonformgenerator.netlify.app/",
+  },
+  {
     name: "Amazone Clone",
     description:
       "A clone of the Amazon website made with HTML, CSS, React, and Firebase. It includes features like product search, user login, and shopping cart management, providing a smooth and easy-to-use online shopping experience.",
@@ -220,28 +242,7 @@ const projects = [
     image: PetsShop,
     source_code_link: "hhttps://github.com/Raj2raaz/web-wizard",
   },
-  {
-    name: "Dynamic JSON Form ",
-    description:
-      "An interactive tool for creating and managing forms from JSON data. Built with React and TypeScript, it offers real-time updates, field validation, dark mode, and options to download form submissions as JSON.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "jest",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: DynamicForm,
-    source_code_link: "https://github.com/Raj2raaz/Dynamic_Form_Generator/",
-    live_link: "https://jsonformgenerator.netlify.app/",
-  },
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };
