@@ -36,6 +36,8 @@ import Balance1studio from "../assets/company/Balance1studio.png"
 
 import AmazoneClone from "../assets/projects/AmazoneClone.png";
 import PetsShop from "../assets/projects/PetsShop.png";
+import DynamicForm from "../assets/dynamic-form.png"
+import Livepng from "../assets/live-png.png"
 
 // import LinkedIn from "../assets/linkedIn.png"
 
@@ -219,25 +221,26 @@ const projects = [
     source_code_link: "hhttps://github.com/Raj2raaz/web-wizard",
   },
   {
-    name: "Trip Guide",
+    name: "Dynamic JSON Form ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An interactive tool for creating and managing forms from JSON data. Built with React and TypeScript, it offers real-time updates, field validation, dark mode, and options to download form submissions as JSON.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "jest",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: DynamicForm,
+    source_code_link: "https://github.com/Raj2raaz/Dynamic_Form_Generator/",
+    live_link: "https://jsonformgenerator.netlify.app/",
   },
 ];
 
