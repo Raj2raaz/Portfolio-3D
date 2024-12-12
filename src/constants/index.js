@@ -37,6 +37,7 @@ import Balance1studio from "../assets/company/Balance1studio.png"
 import AmazoneClone from "../assets/projects/AmazoneClone.png";
 import PetsShop from "../assets/projects/PetsShop.png";
 import DynamicForm from "../assets/dynamic-form.png"
+import SchoolCRM from "../assets/projects/SchoolCRM.png"
 import Livepng from "../assets/live-png.png"
 
 // import LinkedIn from "../assets/linkedIn.png"
@@ -178,6 +179,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "School CRM Application",
+    description:
+      "A web-based platform for managing students, teachers, and classes efficiently. Built with React, Node.js, and MongoDB, it features CRUD operations, dynamic forms, analytics with graphs, authentication, and responsive design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: SchoolCRM, 
+    source_code_link: "https://github.com/Raj2raaz/School_ERP", 
+    live_link: "https://erp-school.netlify.app/", 
+  },  
   {
     name: "Dynamic JSON Form ",
     description:
