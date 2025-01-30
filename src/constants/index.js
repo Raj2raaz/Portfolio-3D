@@ -21,24 +21,26 @@ import {
   // threejs,
 } from "../assets";
 
-import html from "../assets/tech/html.png"
-import css from "../assets/tech/css.png"
+import html from "../assets/tech/html.png";
+import css from "../assets/tech/css.png";
 
-import java from "../assets/tech/java.png"
-import bootstrap from "../assets/tech/bootstrap.png"
+import java from "../assets/tech/java.png";
+import bootstrap from "../assets/tech/bootstrap.png";
 // import express from "../assets/tech/express.png"
-import firebase from "../assets/tech/firebase.png"
-import next from "../assets/tech/next.png"
+import firebase from "../assets/tech/firebase.png";
+import next from "../assets/tech/next.png";
 // import postman from "../assets/tech/postman.png"
-import sql from "../assets/tech/sql.png"
+import sql from "../assets/tech/sql.png";
 // import vsCode from "../assets/tech/vsCode.png"
-import Balance1studio from "../assets/company/Balance1studio.png"
+import Balance1studio from "../assets/company/Balance1studio.png";
 
 import AmazoneClone from "../assets/projects/AmazoneClone.png";
 import PetsShop from "../assets/projects/PetsShop.png";
-import DynamicForm from "../assets/dynamic-form.png"
-import SchoolCRM from "../assets/projects/SchoolCRM.png"
-import Livepng from "../assets/live-png.png"
+import DynamicForm from "../assets/dynamic-form.png";
+import SchoolCRM from "../assets/projects/SchoolCRM.png";
+import Kanban_Board from "../assets/projects/Kanban_Board.png";
+import Text_Editor from "../assets/projects/Text_Editor.png"
+import Livepng from "../assets/live-png.png";
 
 // import LinkedIn from "../assets/linkedIn.png"
 
@@ -145,10 +147,9 @@ const experiences = [
       "Designed visually engaging and responsive content using frontend technologies like CSS, ensuring cross-browser compatibility and optimal performance.",
       "Emphasized user experience by implementing an intuitive and accessible user interface, improving navigation and engagement across devices.",
       "Collaborated with the design team to develop visually appealing layouts and ensure alignment with Balance 1 Studio’s wellness-focused mission.",
-      "Participated in code reviews to ensure high-quality code and maintainability in the React.js codebase."
+      "Participated in code reviews to ensure high-quality code and maintainability in the React.js codebase.",
     ],
   },
-  
 ];
 
 const testimonials = [
@@ -180,6 +181,62 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Kanban Board ",
+    description:
+      "A real-time task management application that allows users to organize, track, and collaborate on projects using a drag-and-drop interface. Built with React, Node.js, Express, and Socket.io for real-time updates, ensuring seamless team collaboration.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "red-text-gradient",
+      },
+      {
+        name: "express",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: Kanban_Board,
+    source_code_link: "https://github.com/YourUsername/Kanban-Board",
+    live_link: "https://kanban-app.netlify.app/",
+  },
+  {
+    name: "Rich Text Editor",
+    description:
+      "A lightweight and intuitive rich text editor with formatting options, autosave, and state management using React Context API. Built with React, useContext, and Local Storage, it provides a seamless writing experience without external dependencies.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "useContext",
+        color: "green-text-gradient",
+      },
+      {
+        name: "local storage",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: Text_Editor,
+    source_code_link: "https://github.com/YourUsername/Text-Editor",
+    live_link: "https://text-editor-app.netlify.app/",
+  },
+  {
     name: "School CRM Application",
     description:
       "A web-based platform for managing students, teachers, and classes efficiently. Built with React, Node.js, and MongoDB, it features CRUD operations, dynamic forms, analytics with graphs, authentication, and responsive design.",
@@ -201,10 +258,10 @@ const projects = [
         color: "purple-text-gradient",
       },
     ],
-    image: SchoolCRM, 
-    source_code_link: "https://github.com/Raj2raaz/School_ERP", 
-    live_link: "https://erp-school.netlify.app/", 
-  },  
+    image: SchoolCRM,
+    source_code_link: "https://github.com/Raj2raaz/School_ERP",
+    live_link: "https://erp-school.netlify.app/",
+  },
   {
     name: "Dynamic JSON Form ",
     description:
@@ -269,7 +326,6 @@ const projects = [
     image: PetsShop,
     source_code_link: "hhttps://github.com/Raj2raaz/web-wizard",
   },
- 
 ];
 
 export { services, technologies, experiences, testimonials, projects };
