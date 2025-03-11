@@ -40,6 +40,9 @@ import DynamicForm from "../assets/dynamic-form.png";
 import SchoolCRM from "../assets/projects/SchoolCRM.png";
 import Kanban_Board from "../assets/projects/Kanban_Board.png";
 import Text_Editor from "../assets/projects/Text_Editor.png"
+import NextJS_Dashboard from "../assets/projects/NextJS_Dashboard.png"
+import Blogi from "../assets/projects/Blogi.png"
+import FinancialAI from "../assets/projects/FinancialAI.png"
 import Livepng from "../assets/live-png.png";
 
 // import LinkedIn from "../assets/linkedIn.png"
@@ -180,6 +183,104 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    "name": "Blogi - Fullstack Blogging Platform",
+    "description": "A fullstack blogging platform built with React and Node.js, enabling users to create, edit, and manage blog posts with authentication, image uploads and pagination. Features a responsive UI, JWT-secured API, and a seamless user experience.",
+    "tags": [
+      {
+        "name": "react",
+        "color": "blue-text-gradient"
+      },
+      {
+        "name": "node.js",
+        "color": "green-text-gradient"
+      },
+      {
+        "name": "express.js",
+        "color": "yellow-text-gradient"
+      },
+      {
+        "name": "mongodb",
+        "color": "red-text-gradient"
+      },
+      {
+        "name": "tailwind css",
+        "color": "purple-text-gradient"
+      },
+      {
+        "name": "jwt authentication",
+        "color": "orange-text-gradient"
+      },
+      {
+        "name": "multer",
+        "color": "pink-text-gradient"
+      }
+    ],
+    "image": Blogi,
+    "source_code_link": {
+      "frontend": "https://github.com/Raj2raaz/Blog_Frontend",
+      "backend": "https://github.com/Raj2raaz/Blog_Backend"
+    },
+    "live_link": "https://blogi-subham.netlify.app/"
+  },  
+  {
+    "name": "Next.js Dashboard with Google Sheets",
+    "description": "A dynamic dashboard integrated with Google Sheets for real-time data visualization. Built with Next.js, Node.js, and MongoDB, it features JWT authentication, data fetching, CRUD operations, and a responsive UI with Tailwind CSS.",
+    "tags": [
+      {
+        "name": "next.js",
+        "color": "blue-text-gradient"
+      },
+      {
+        "name": "node.js",
+        "color": "green-text-gradient"
+      },
+      {
+        "name": "mongodb",
+        "color": "pink-text-gradient"
+      },
+      {
+        "name": "tailwind css",
+        "color": "purple-text-gradient"
+      },
+      {
+        "name": "google sheets api",
+        "color": "yellow-text-gradient"
+      }
+    ],
+    "image": NextJS_Dashboard, 
+    "source_code_link": "https://github.com/Raj2raaz/NextJS_Dashboard",
+    "live_link": "https://next-js-dashboard-alpha-lovat.vercel.app/"
+  }, 
+  {
+    "name": "Financial AI - AI-Powered Assistant",
+    "description": "An AI-powered financial assistant that helps users automate financial queries, get insights, and manage tasks. Built with React, Node.js, and OpenAI’s ChatGPT, it provides real-time financial assistance with chatbot integration and a user-friendly interface.",
+    "tags": [
+      {
+        "name": "react",
+        "color": "blue-text-gradient"
+      },
+      {
+        "name": "node.js",
+        "color": "green-text-gradient"
+      },
+      {
+        "name": "openai api",
+        "color": "red-text-gradient"
+      },
+      {
+        "name": "express.js",
+        "color": "yellow-text-gradient"
+      },
+      {
+        "name": "tailwind css",
+        "color": "purple-text-gradient"
+      }
+    ],
+    "image": FinancialAI, 
+    "source_code_link": "https://github.com/Raj2raaz/Chat_Application",
+    "live_link": "https://finbotassistant.netlify.app//"
+  },   
   {
     name: "Kanban Board ",
     description:
